@@ -1,4 +1,4 @@
-# Budget Managment
+# Budget Management
 
 ## Budget Requirements & Costs
 
