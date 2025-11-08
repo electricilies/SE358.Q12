@@ -1,10 +1,9 @@
 # Phase B Report
 
-Lớp: SE358.Q12
-Giảng viên: Lê Văn Tuấn
+Class: SE358.Q12
+Lecturer: Lê Văn Tuấn
 
-Thành viên:
-
+Members:
 Nguyễn Thái Gia Nguyễn - 23521049
 Đào Duy Vinh - 23521787
 Trần Nguyễn Duy Minh - 23520956
@@ -12,113 +11,112 @@ Trần Nguyễn Thái Bình - 23520161
 
 # 1. Budget Management
 
-| Component/Task | Detailed Item | Quantity | Unit Cost | Total Cost |
-| --- | --- | --- | --- | --- |
-| **Personnel Costs** |     |     |     |     |
-| Business Analyst | Monthly salary | 1 person × 4 months | $800/month | $3,200 |
-| Software Developer | Monthly salary | 4 people × 4 months | $1,000/month | $16,000 |
-| QA Tester | Monthly salary | 2 people × 4 months | $700/month | $5,600 |
-| UI/UX Designer | Monthly salary | 2 people × 4 months | $750/month | $6,000 |
-| Project Manager | Monthly salary | 2 people × 4 months | $1,200/month | $9,600 |
-| DevOps Engineer | Monthly salary | 1 person × 4 months | $1,100/month | $4,400 |
-| **Infrastructure - Hardware** |     |     |     |     |
-| Kubernetes Master Node | Mini PC (16GB RAM, 256GB NVMe) | 1 unit | $250 | $250 |
-| Network Switch | 8-port Gigabit managed switch | 1 unit | $45 | $45 |
-| UPS Battery Backup | 1000VA UPS for server protection | 1 unit | $80 | $80 |
-| Network Cables | Cat6 Ethernet cables (10ft) | 5 cables | $8  | $40 |
-| Server Rack/Cabinet | Small 6U wall-mount rack | 1 unit | $60 | $60 |
-| **Infrastructure - Storage** |     |     |     |     |
-| Backup Storage | 500GB External HDD for backups | 1 unit | $10 | $10 |
-| **Infrastructure - Network & Domain** |     |     |     |     |
-| Domain Registration | .id.vn domain (1 year) | 1 domain | $3  | $3  |
-| SSL Certificate | Let's Encrypt (Free) | 1 certificate | $0  | $0  |
-| Static IP Address | Dedicated static IP (if needed) | 4 months | $10/month | $40 |
-| Internet Connection | Business internet (100Mbps) | 4 months | $60/month | $240 |
-| **Infrastructure - Utilities** |     |     |     |     |
-| Electricity | Server power consumption (~300W 24/7) | 4 months | $35/month | $140 |
-| Office Space | School, Work from home |     | $0  | $0  |
-| **Software & Services** |     |     |     |     |
-| Container Registry | Github container registry (GHCR) |     | $0  | $0  |
-| Monitoring Service | Self-hosted Prometheus + Grafana |     | $0  | $0  |
-| Log Management | Self-hosted Grafana Loki |     | $0  | $0  |
-| Database | PostgreSQL (self-hosted) |     | $0  | $0  |
-| Cache System | Redis (self-hosted) |     | $0  | $0  |
-| Identity and Access Management | Keycloak (self-hosted) |     | $0  | $0  |
-| CI/CD Pipeline | GitHub Actions (free tier) |     | $0  | $0  |
-| Message Queue | RabbitMQ/Kafka (self-hosted, if needed) |     | $0  | $0  |
-| Reverse Proxy/Ingress | Traefik/Nginx Ingress Controller |     | $0  | $0  |
-| **Development Tools & Licenses** |     |     |     |     |
-| IDE Licenses | VSCode, Neovim |     | $0  | $0  |
-| Design Software | Figma (Free tier) |     | $0  | $0  |
-| API Testing Tool | Postman (Free tier), Bruno |     | $0  | $0  |
-| Project Management | Jira Software Free |     | $0  | $0  |
-| Documentation | VitePress with Github Pages |     | $0  | $0  |
-| Communication | Facebook Messenger, Telegram |     | $0  | $0  |
-| Version Control | Git, GitHub (Free) |     | $0  | $0  |
-| Database Management | DBeaver Community |     | $0  | $0  |
-| **Testing & QA** |     |     |     |     |
-| Load Testing Tool | Grafana K6 (open-source) |     | $0  | $0  |
-| Browser Testing | Playwright with CI |     | $0  | $0  |
-| Test Coverage | Codecov (Free for open source) |     | $0  | $0  |
-| Security Scanning | SonarQube Community/Cloud (Free tier) |     | $0  | $0  |
-| API Documentation | Swagger/OpenAPI (self-hosted) |     | $0  | $0  |
-| **Documentation & Assets** |     |     |     |     |
-| Diagram Tools | PlantUML |     | $0  | $0  |
-| Image Optimization | TinyPNG, ImageOptim (Free tools) |     | $0  | $0  |
-| **Training & Learning** |     |     |     |     |
-| Online Courses | YouTube, freeCodeCamp, MDN |     | $0  | $0  |
-| Technical Documentation | Official docs (PostgreSQL, K8s, etc.) |     | $0  | $0  |
-| **Marketing & Launch** |     |     |     |     |
-| Landing Page Hosting | Github Pages (Static site) |     | $0  | $0  |
-| Email Service | Self-hosted or Gmail SMTP |     | $0  | $0  |
-| SEO Tools | Google Search Console (Free) |     | $0  | $0  |
-| **Legal & Compliance** |     |     |     |     |
-| Business Registration | Company registration fees (if applicable) | 1 time | $10 | $10 |
-| Terms & Privacy Policy | Legal document templates (online) |     | $0  | $0  |
-| GDPR Compliance Tools | Cookie consent banner (free libraries) |     | $0  | $0  |
-| **Contingency & Miscellaneous** |     |     |     |     |
-| Hardware Replacement | Reserve for hardware failure | Buffer |     | $300 |
-| Software Emergency | Unexpected paid service needs | Buffer |     | $150 |
-| Team Building | Team activities/meals (pizza parties) | 4 events | $50 | $200 |
-| Office Supplies | Whiteboards, markers, notepads, etc. | Miscellaneous |     | $100 |
-| Emergency Fund | General contingency (~5% of operational) |     |     | $100 |
-| **Subtotal (Operational Costs)** |     |     |     | **$1,768** |
-| **Subtotal (Personnel Costs)** |     |     |     | **$44,800** |
-| **Grand Total** |     |     |     | **$46,568** |
+| Component/Task                        | Detailed Item                             | Quantity            | Unit Cost    | Total Cost  |
+| ------------------------------------- | ----------------------------------------- | ------------------- | ------------ | ----------- |
+| **Personnel Costs**                   |                                           |                     |              |             |
+| Business Analyst                      | Monthly salary                            | 1 person × 4 months | $800/month   | $3,200      |
+| Software Developer                    | Monthly salary                            | 4 people × 4 months | $1,000/month | $16,000     |
+| QA Tester                             | Monthly salary                            | 2 people × 4 months | $700/month   | $5,600      |
+| UI/UX Designer                        | Monthly salary                            | 2 people × 4 months | $750/month   | $6,000      |
+| Project Manager                       | Monthly salary                            | 2 people × 4 months | $1,200/month | $9,600      |
+| DevOps Engineer                       | Monthly salary                            | 1 person × 4 months | $1,100/month | $4,400      |
+| **Infrastructure - Hardware**         |                                           |                     |              |             |
+| Kubernetes Master Node                | Mini PC (16GB RAM, 256GB NVMe)            | 1 unit              | $250         | $250        |
+| Network Switch                        | 8-port Gigabit managed switch             | 1 unit              | $45          | $45         |
+| UPS Battery Backup                    | 1000VA UPS for server protection          | 1 unit              | $80          | $80         |
+| Network Cables                        | Cat6 Ethernet cables (10ft)               | 5 cables            | $8           | $40         |
+| Server Rack/Cabinet                   | Small 6U wall-mount rack                  | 1 unit              | $60          | $60         |
+| **Infrastructure - Storage**          |                                           |                     |              |             |
+| Backup Storage                        | 500GB External HDD for backups            | 1 unit              | $10          | $10         |
+| **Infrastructure - Network & Domain** |                                           |                     |              |             |
+| Domain Registration                   | .id.vn domain (1 year)                    | 1 domain            | $3           | $3          |
+| SSL Certificate                       | Let's Encrypt (Free)                      | 1 certificate       | $0           | $0          |
+| Static IP Address                     | Dedicated static IP (if needed)           | 4 months            | $10/month    | $40         |
+| Internet Connection                   | Business internet (100Mbps)               | 4 months            | $60/month    | $240        |
+| **Infrastructure - Utilities**        |                                           |                     |              |             |
+| Electricity                           | Server power consumption (~300W 24/7)     | 4 months            | $35/month    | $140        |
+| Office Space                          | School, Work from home                    |                     | $0           | $0          |
+| **Software & Services**               |                                           |                     |              |             |
+| Container Registry                    | Github container registry (GHCR)          |                     | $0           | $0          |
+| Monitoring Service                    | Self-hosted Prometheus + Grafana          |                     | $0           | $0          |
+| Log Management                        | Self-hosted Grafana Loki                  |                     | $0           | $0          |
+| Database                              | PostgreSQL (self-hosted)                  |                     | $0           | $0          |
+| Cache System                          | Redis (self-hosted)                       |                     | $0           | $0          |
+| Identity and Access Management        | Keycloak (self-hosted)                    |                     | $0           | $0          |
+| CI/CD Pipeline                        | GitHub Actions (free tier)                |                     | $0           | $0          |
+| Message Queue                         | RabbitMQ/Kafka (self-hosted, if needed)   |                     | $0           | $0          |
+| Reverse Proxy/Ingress                 | Traefik/Nginx Ingress Controller          |                     | $0           | $0          |
+| **Development Tools & Licenses**      |                                           |                     |              |             |
+| IDE Licenses                          | VSCode, Neovim                            |                     | $0           | $0          |
+| Design Software                       | Figma (Free tier)                         |                     | $0           | $0          |
+| API Testing Tool                      | Postman (Free tier), Bruno                |                     | $0           | $0          |
+| Project Management                    | Jira Software Free                        |                     | $0           | $0          |
+| Documentation                         | VitePress with Github Pages               |                     | $0           | $0          |
+| Communication                         | Facebook Messenger, Telegram              |                     | $0           | $0          |
+| Version Control                       | Git, GitHub (Free)                        |                     | $0           | $0          |
+| Database Management                   | DBeaver Community                         |                     | $0           | $0          |
+| **Testing & QA**                      |                                           |                     |              |             |
+| Load Testing Tool                     | Grafana K6 (open-source)                  |                     | $0           | $0          |
+| Browser Testing                       | Playwright with CI                        |                     | $0           | $0          |
+| Test Coverage                         | Codecov (Free for open source)            |                     | $0           | $0          |
+| Security Scanning                     | SonarQube Community/Cloud (Free tier)     |                     | $0           | $0          |
+| API Documentation                     | Swagger/OpenAPI (self-hosted)             |                     | $0           | $0          |
+| **Documentation & Assets**            |                                           |                     |              |             |
+| Diagram Tools                         | PlantUML                                  |                     | $0           | $0          |
+| Image Optimization                    | TinyPNG, ImageOptim (Free tools)          |                     | $0           | $0          |
+| **Training & Learning**               |                                           |                     |              |             |
+| Online Courses                        | YouTube, freeCodeCamp, MDN                |                     | $0           | $0          |
+| Technical Documentation               | Official docs (PostgreSQL, K8s, etc.)     |                     | $0           | $0          |
+| **Marketing & Launch**                |                                           |                     |              |             |
+| Landing Page Hosting                  | Github Pages (Static site)                |                     | $0           | $0          |
+| Email Service                         | Self-hosted or Gmail SMTP                 |                     | $0           | $0          |
+| SEO Tools                             | Google Search Console (Free)              |                     | $0           | $0          |
+| **Legal & Compliance**                |                                           |                     |              |             |
+| Business Registration                 | Company registration fees (if applicable) | 1 time              | $10          | $10         |
+| Terms & Privacy Policy                | Legal document templates (online)         |                     | $0           | $0          |
+| GDPR Compliance Tools                 | Cookie consent banner (free libraries)    |                     | $0           | $0          |
+| **Contingency & Miscellaneous**       |                                           |                     |              |             |
+| Hardware Replacement                  | Reserve for hardware failure              | Buffer              |              | $300        |
+| Software Emergency                    | Unexpected paid service needs             | Buffer              |              | $150        |
+| Team Building                         | Team activities/meals (pizza parties)     | 4 events            | $50          | $200        |
+| Office Supplies                       | Whiteboards, markers, notepads, etc.      | Miscellaneous       |              | $100        |
+| Emergency Fund                        | General contingency (~5% of operational)  |                     |              | $100        |
+| **Subtotal (Operational Costs)**      |                                           |                     |              | **$1,768**  |
+| **Subtotal (Personnel Costs)**        |                                           |                     |              | **$44,800** |
+| **Grand Total**                       |                                           |                     |              | **$46,568** |
 
 # 2. Quality Plan
 
-
 ## 2.1. Quality Metrics
 
-| **Metric** | **Description** | **Measurement Method** | **Target Value** |
-| --- | --- | --- | --- |
-| **Response Time** | Measures how quickly the website loads or responds to user requests. | Performance testing using Playwright. | ≤ 2 seconds per page |
-| **Defect Density** | Number of defects identified during testing per unit size (e.g., per 1,000 lines of code or per module). | (Total number of confirmed defects) ÷ (Size of the software in KLOC or modules). | ≤ 2 defects per KLOC |
-| **Test Coverage** | Percentage of code or features covered by automated or manual tests. | Automatic testing framework (JUnit) | ≥ 80% |
-| **Pass Rate** | Percentage of executed test cases that passed successfully. | (Number of test cases passed ÷ Total test cases executed) × 100. | ≥ 95% |
-| **Availability / Uptime** | Percentage of time the website is operational and accessible to users. | Use uptime monitoring tools (Prometheus/Grafana). | ≥ 99.8% |
-| **Error Rate** | Measures how many API calls or page requests result in errors (e.g., 4xx, 5xx). | Analyze server logs and API monitoring dashboards. | ≤ 1% of total requests |
-| **Security Vulnerabilities Found** | Tracks number of security issues identified during testing or audits. | Regular vulnerability scans, penetration testing reports. | 0 critical vulnerabilities before release |
-| **User Satisfaction** | Measures how satisfied users are with usability, design, and performance. | Post-release surveys, user feedback forms, Net Promoter Score (NPS). | ≥ 4.2 / 5 average rating |
+| **Metric**                         | **Description**                                                                                          | **Measurement Method**                                                           | **Target Value**                          |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
+| **Response Time**                  | Measures how quickly the website loads or responds to user requests.                                     | Performance testing using Playwright.                                            | ≤ 2 seconds per page                      |
+| **Defect Density**                 | Number of defects identified during testing per unit size (e.g., per 1,000 lines of code or per module). | (Total number of confirmed defects) ÷ (Size of the software in KLOC or modules). | ≤ 2 defects per KLOC                      |
+| **Test Coverage**                  | Percentage of code or features covered by automated or manual tests.                                     | Automatic testing framework (JUnit)                                              | ≥ 80%                                     |
+| **Pass Rate**                      | Percentage of executed test cases that passed successfully.                                              | (Number of test cases passed ÷ Total test cases executed) × 100.                 | ≥ 95%                                     |
+| **Availability / Uptime**          | Percentage of time the website is operational and accessible to users.                                   | Use uptime monitoring tools (Prometheus/Grafana).                                | ≥ 99.8%                                   |
+| **Error Rate**                     | Measures how many API calls or page requests result in errors (e.g., 4xx, 5xx).                          | Analyze server logs and API monitoring dashboards.                               | ≤ 1% of total requests                    |
+| **Security Vulnerabilities Found** | Tracks number of security issues identified during testing or audits.                                    | Regular vulnerability scans, penetration testing reports.                        | 0 critical vulnerabilities before release |
+| **User Satisfaction**              | Measures how satisfied users are with usability, design, and performance.                                | Post-release surveys, user feedback forms, Net Promoter Score (NPS).             | ≥ 4.2 / 5 average rating                  |
 
 ## 2.2. Quality Checklist
 
-| **Quality Task** | **Expected Outcome** | **Status** |
-| --- | --- | --- |
-| 1. Conduct performance testing using Playwright for all key pages | Each page loads within ≤ 2 seconds under normal conditions | ☐   |
-| 2. Measure and record defect density after system testing | Defect density is ≤ 2 defects per KLOC or module | ☐   |
-| 3. Review automated and manual test coverage reports (JUnit + manual cases) | Achieve ≥ 80% test coverage across all modules | ☐   |
-| 4. Execute all planned test cases and log results | ≥ 95% pass rate for all executed tests | ☐   |
-| 5. Set up uptime monitoring using Prometheus/Grafana | Maintain system uptime ≥ 99.8% | ☐   |
-| 6. Review error logs and API monitoring dashboard daily | Error rate ≤ 1% of total requests | ☐   |
-| 7. Perform vulnerability scanning and penetration testing before release | 0 critical vulnerabilities remaining | ☐   |
-| 8. Conduct post-release user satisfaction survey (NPS or feedback form) | Average user rating ≥ 4.2 / 5 | ☐   |
-| 9. Verify cross-browser compatibility (Chrome, Edge, Firefox, Safari) | No critical UI or functionality issues on major browsers | ☐   |
-| 10. Review responsive design on multiple devices (desktop, tablet, mobile) | Layout and performance consistent across devices | ☐   |
-| 11. Confirm all APIs have proper error handling and status codes | All endpoints return correct responses and handle errors gracefully | ☐   |
-| 12. Revalidate data integrity after deployment (e.g., orders, products, payments) | No data loss or corruption during transactions | ☐   |
-| 13. Conduct accessibility audit (WCAG compliance check) | Meets minimum WCAG 2.1 AA standards | ☐   |
+| **Quality Task**                                                                  | **Expected Outcome**                                                | **Status** |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
+| 1. Conduct performance testing using Playwright for all key pages                 | Each page loads within ≤ 2 seconds under normal conditions          | ☐          |
+| 2. Measure and record defect density after system testing                         | Defect density is ≤ 2 defects per KLOC or module                    | ☐          |
+| 3. Review automated and manual test coverage reports (JUnit + manual cases)       | Achieve ≥ 80% test coverage across all modules                      | ☐          |
+| 4. Execute all planned test cases and log results                                 | ≥ 95% pass rate for all executed tests                              | ☐          |
+| 5. Set up uptime monitoring using Prometheus/Grafana                              | Maintain system uptime ≥ 99.8%                                      | ☐          |
+| 6. Review error logs and API monitoring dashboard daily                           | Error rate ≤ 1% of total requests                                   | ☐          |
+| 7. Perform vulnerability scanning and penetration testing before release          | 0 critical vulnerabilities remaining                                | ☐          |
+| 8. Conduct post-release user satisfaction survey (NPS or feedback form)           | Average user rating ≥ 4.2 / 5                                       | ☐          |
+| 9. Verify cross-browser compatibility (Chrome, Edge, Firefox, Safari)             | No critical UI or functionality issues on major browsers            | ☐          |
+| 10. Review responsive design on multiple devices (desktop, tablet, mobile)        | Layout and performance consistent across devices                    | ☐          |
+| 11. Confirm all APIs have proper error handling and status codes                  | All endpoints return correct responses and handle errors gracefully | ☐          |
+| 12. Revalidate data integrity after deployment (e.g., orders, products, payments) | No data loss or corruption during transactions                      | ☐          |
+| 13. Conduct accessibility audit (WCAG compliance check)                           | Meets minimum WCAG 2.1 AA standards                                 | ☐          |
 
 # 3. Risk Register
 
@@ -149,84 +147,85 @@ Trần Nguyễn Thái Bình - 23520161
 
 ## 4.1. Resource and Personnel Allocation Plan
 
-| Resource Type | Description | Allocation Criteria | Allocation Plan |
-| --- | --- | --- | --- |
-| Human Resources | Project team members (business & engineer) | Based on skills and project needs | Assign roles according to expertise and workload |
-| Technical Assets | Servers, CI/CD tools, testing frameworks | Project phase and requirements | Allocate per development and testing schedule |
-| Time | Project timeline, milestones | Project plan and deliverables | Distribute tasks across sprints and deadlines |
-| Budget | Funding for tools, infrastructure, support | Project scope and priorities | Allocate budget for essential resources |
+| Resource Type    | Description                                | Allocation Criteria               | Allocation Plan                                  |
+| ---------------- | ------------------------------------------ | --------------------------------- | ------------------------------------------------ |
+| Human Resources  | Project team members (business & engineer) | Based on skills and project needs | Assign roles according to expertise and workload |
+| Technical Assets | Servers, CI/CD tools, testing frameworks   | Project phase and requirements    | Allocate per development and testing schedule    |
+| Time             | Project timeline, milestones               | Project plan and deliverables     | Distribute tasks across sprints and deadlines    |
+| Budget           | Funding for tools, infrastructure, support | Project scope and priorities      | Allocate budget for essential resources          |
 
 ## 4.2. Roles, Skills, and Workload Identification
 
-| Team Member | Team | Role(s) | Main Responsibilities | Required Skills | Estimated Workload (%) |
-| --- | --- | --- | --- | --- | --- |
-| Trần Nguyễn Thái Bình | Engineering | Project Owner, Backend Dev, DevOps | Backend, CI/CD, E2E, performance, infrastructure, business support | Backend dev, DevOps, business, testing | 20  |
-| Nguyễn Thái Gia Nguyễn | Engineering | Project Owner, Backend Dev | Backend, API, integration, business support | Backend dev, API, business | 20  |
-| Trần Nguyễn Duy Minh | Engineering | Frontend Dev | Frontend, E2E, UI, business support | Frontend dev, UI, business, testing | 20  |
-| Đào Duy Vinh | Engineering | Frontend Dev | Frontend, integration, UI, business support | Frontend dev, integration, business | 20  |
-| All Members | Business | Business Analyst, QA Engineer | Requirement analysis, documentation, test planning, QA, bug reporting, business tasks | Analysis, documentation, QA, business | 20  |
+| Team Member            | Team        | Role(s)                            | Main Responsibilities                                                                 | Required Skills                        | Estimated Workload (%) |
+| ---------------------- | ----------- | ---------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------- | ---------------------- |
+| Trần Nguyễn Thái Bình  | Engineering | Project Owner, Backend Dev, DevOps | Backend, CI/CD, E2E, performance, infrastructure, business support                    | Backend dev, DevOps, business, testing | 20                     |
+| Nguyễn Thái Gia Nguyễn | Engineering | Project Owner, Backend Dev         | Backend, API, integration, business support                                           | Backend dev, API, business             | 20                     |
+| Trần Nguyễn Duy Minh   | Engineering | Frontend Dev                       | Frontend, E2E, UI, business support                                                   | Frontend dev, UI, business, testing    | 20                     |
+| Đào Duy Vinh           | Engineering | Frontend Dev                       | Frontend, integration, UI, business support                                           | Frontend dev, integration, business    | 20                     |
+| All Members            | Business    | Business Analyst, QA Engineer      | Requirement analysis, documentation, test planning, QA, bug reporting, business tasks | Analysis, documentation, QA, business  | 20                     |
 
 ## 4.3. Simple RACI Matrix
 
-| Task / Deliverable | Trần Nguyễn Thái Bình | Nguyễn Thái Gia Nguyễn | Trần Nguyễn Duy Minh | Đào Duy Vinh | All Members (Business Analyst, QA Engineer) | Informed (I) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Requirement Gathering | A/R | C   | C   | C   | R   | All team, Sponsor |
-| Backend Development | A/R | R   | C   | C   | C   | All team, Sponsor |
-| Frontend Development | C   | C   | A/R | R   | C   | All team, Sponsor |
-| Test Planning | C   | C   | C   | C   | A/R | All team, Sponsor |
-| CI/CD Setup | A/R | R   | C   | C   | C   | All team |
-| E2E Testing | C   | R   | R   | C   | A   | All team, Sponsor |
-| Documentation | R   | C   | C   | C   | A/R | All team |
+| Task / Deliverable    | Trần Nguyễn Thái Bình | Nguyễn Thái Gia Nguyễn | Trần Nguyễn Duy Minh | Đào Duy Vinh | All Members (Business Analyst, QA Engineer) | Informed (I)      |
+| --------------------- | --------------------- | ---------------------- | -------------------- | ------------ | ------------------------------------------- | ----------------- |
+| Requirement Gathering | A/R                   | C                      | C                    | C            | R                                           | All team, Sponsor |
+| Backend Development   | A/R                   | R                      | C                    | C            | C                                           | All team, Sponsor |
+| Frontend Development  | C                     | C                      | A/R                  | R            | C                                           | All team, Sponsor |
+| Test Planning         | C                     | C                      | C                    | C            | A/R                                         | All team, Sponsor |
+| CI/CD Setup           | A/R                   | R                      | C                    | C            | C                                           | All team          |
+| E2E Testing           | C                     | R                      | R                    | C            | A                                           | All team, Sponsor |
+| Documentation         | R                     | C                      | C                    | C            | A/R                                         | All team          |
 
 **Legend:**  
 A = Accountable, R = Responsible, C = Consulted, I = Informed
 
 ## 4.4. Assignment Adjustment Based on Actual Experience
 
-| Team Member | Initial Assignment | Adjustment Reason | Adjusted Assignment |
-| --- | --- | --- | --- |
-| Trần Nguyễn Thái Bình | Backend, DevOps, CI/CD | Strong DevOps experience | Lead CI/CD and performance testing |
-| Nguyễn Thái Gia Nguyễn | Backend, API testing | Deep API knowledge | Focus on API and integration testing |
-| Trần Nguyễn Duy Minh | Frontend, E2E testing | Good at UI automation | Lead E2E and component testing |
-| Đào Duy Vinh | Frontend, integration testing | New to project, learning fast | Support UI and integration testing |
-| All Members | Business/QA/BA roles | Shared responsibility | Lead documentation, requirement traceability, test planning, bug triage |
+| Team Member            | Initial Assignment            | Adjustment Reason             | Adjusted Assignment                                                     |
+| ---------------------- | ----------------------------- | ----------------------------- | ----------------------------------------------------------------------- |
+| Trần Nguyễn Thái Bình  | Backend, DevOps, CI/CD        | Strong DevOps experience      | Lead CI/CD and performance testing                                      |
+| Nguyễn Thái Gia Nguyễn | Backend, API testing          | Deep API knowledge            | Focus on API and integration testing                                    |
+| Trần Nguyễn Duy Minh   | Frontend, E2E testing         | Good at UI automation         | Lead E2E and component testing                                          |
+| Đào Duy Vinh           | Frontend, integration testing | New to project, learning fast | Support UI and integration testing                                      |
+| All Members            | Business/QA/BA roles          | Shared responsibility         | Lead documentation, requirement traceability, test planning, bug triage |
 
 # 5. Communication Plan
 
-| **Communication** | **Recipient Groups** | **Communication Time** | **Tool** | **Goal** | **Owner** |
-| --- | --- | --- | --- | --- | --- |
-| Project Kick-off Meeting | Core Team, All Stakeholders | Once (Project start) | Google Meet | Introduce project goals, objectives, scope timeline, deliverables & assign roles. | Project Manager |
-| Daily Stand-up Meeting | Core Team | Daily | In person (Mon - Fri), Google Meet (Sat, Sun) | For each member to dicuss their progress, identify problems. | Core Team |
-| Monthly Review | Core Team, Stakeholders, Clients | Monthly (1st day each month) | Google Meet | Provide stakeholders and clients with current project progress, discuss ongoing problems. | Project Manager |
-| UI/UX Design Review | Designer, Front-end team, Clients | Once (after each design phase is completed) | E-mail. | Give the Clients an opportunity to provide feedback on the design. | Designer |
-| Testing Review | QA, Developer team, PM | As much as needed during testing phase | Github Issues / Google Meet | Review bugs and defects. | QA  |
-| Lessons Learned Meeting | Core Team | End of Project | In person | Assesses successes and failures during project, provide feedback for further improvements. | PM  |
+| **Communication**        | **Recipient Groups**              | **Communication Time**                      | **Tool**                                      | **Goal**                                                                                   | **Owner**       |
+| ------------------------ | --------------------------------- | ------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------- |
+| Project Kick-off Meeting | Core Team, All Stakeholders       | Once (Project start)                        | Google Meet                                   | Introduce project goals, objectives, scope timeline, deliverables & assign roles.          | Project Manager |
+| Daily Stand-up Meeting   | Core Team                         | Daily                                       | In person (Mon - Fri), Google Meet (Sat, Sun) | For each member to dicuss their progress, identify problems.                               | Core Team       |
+| Monthly Review           | Core Team, Stakeholders, Clients  | Monthly (1st day each month)                | Google Meet                                   | Provide stakeholders and clients with current project progress, discuss ongoing problems.  | Project Manager |
+| UI/UX Design Review      | Designer, Front-end team, Clients | Once (after each design phase is completed) | E-mail.                                       | Give the Clients an opportunity to provide feedback on the design.                         | Designer        |
+| Testing Review           | QA, Developer team, PM            | As much as needed during testing phase      | Github Issues / Google Meet                   | Review bugs and defects.                                                                   | QA              |
+| Lessons Learned Meeting  | Core Team                         | End of Project                              | In person                                     | Assesses successes and failures during project, provide feedback for further improvements. | PM              |
 
 # 6. Kick-off Meeting Minutes
 
 ## 6.1. Title
-|     |     |
-| --- | --- |
+
+|                                             |            |
+| ------------------------------------------- | ---------- |
 | # **KICK-OFF**<br><br># **MEETING MINUTES** | Number: 01 |
-| Issued Date: 01/09/2025 |
-| Page number: |
+| Issued Date: 01/09/2025                     |
+| Page number:                                |
 
-|     |     |     |     |
-| --- | --- | --- | --- |
-| Meeting Purpose | Project kick-off meeting |     |     |
-| Meeting Location | Google Meet |     |     |
-| Meeting Date | 01/09/2025 | Meeting Time | 9:00 AM |
-| Facilitator | Trần Nguyễn Thái Bình (PM) |     |     |
-| Project Name | Electricilies |     |     |
+|                  |                            |              |         |
+| ---------------- | -------------------------- | ------------ | ------- |
+| Meeting Purpose  | Project kick-off meeting   |              |         |
+| Meeting Location | Google Meet                |              |         |
+| Meeting Date     | 01/09/2025                 | Meeting Time | 9:00 AM |
+| Facilitator      | Trần Nguyễn Thái Bình (PM) |              |         |
+| Project Name     | Electricilies              |              |         |
 
-| ## Representatives |     |     |     |
-| --- | --- | --- | --- |
-| No. | Name | Role | Note |
-| 1   | Trần Nguyễn Thái Bình | PM  |     |
-| 2   | Nguyễn Thái Gia Nguyễn | Developer Team |     |
-| 3   | Trần Nguyễn Duy Minh | Developer Team |     |
-| 4   | Đào Duy Vinh | Developer Team |     |
-| 5   | \[Stakeholders\] | Stakeholders |     |
+| ## Representatives |                        |                |      |
+| ------------------ | ---------------------- | -------------- | ---- |
+| No.                | Name                   | Role           | Note |
+| 1                  | Trần Nguyễn Thái Bình  | PM             |      |
+| 2                  | Nguyễn Thái Gia Nguyễn | Developer Team |      |
+| 3                  | Trần Nguyễn Duy Minh   | Developer Team |      |
+| 4                  | Đào Duy Vinh           | Developer Team |      |
+| 5                  | \[Stakeholders\]       | Stakeholders   |      |
 
 ## 6.2. Project Introduction
 
@@ -295,19 +294,19 @@ I have given you context about my project including use cases, function list. Yo
 Create a resource management plan for a project (scope: all project activities, including business and engineering, not just testing).  
 Follow these requirements:
 
-1. Resource and Personnel Allocation Plan: 
+1. Resource and Personnel Allocation Plan:
    - Present in a markdown table with columns: Resource Type, Description, Allocation Criteria, Allocation Plan.
 
-2. Roles, Skills, and Workload Identification:  
+2. Roles, Skills, and Workload Identification:
    - Present in a markdown table with columns: Team Member, Team, Role(s), Main Responsibilities, Required Skills, Actual Experience, Estimated Workload (%).
    - Note: Business Analyst and QA Engineer are not individual members; these are shared roles for all team members.
 
-3. RACI Matrix:  
+3. RACI Matrix:
    - List all team members and their teams above the table.
    - Present in a markdown table with columns: Task / Deliverable, [each team member], All Members (Business Analyst, QA Engineer), Informed (I).
    - Use A = Accountable, R = Responsible, C = Consulted, I = Informed.
 
-4. Assignment Adjustment Based on Actual Experience:  
+4. Assignment Adjustment Based on Actual Experience:
    - Present in a markdown table with columns: Team Member, Initial Assignment, Adjustment Reason, Adjusted Assignment.
 
 Write all content in English.  

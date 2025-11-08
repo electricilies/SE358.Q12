@@ -1,10 +1,9 @@
 # Phase A Report
 
-Lớp: SE358.Q12
-Giảng viên: Lê Văn Tuấn
+Class: SE358.Q12
+Lecturer: Lê Văn Tuấn
 
-Thành viên:
-
+Members:
 Nguyễn Thái Gia Nguyễn - 23521049
 Đào Duy Vinh - 23521787
 Trần Nguyễn Duy Minh - 23520956
