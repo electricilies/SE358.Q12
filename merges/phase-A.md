@@ -1,4 +1,4 @@
-# Báo cáo giai đoạn A
+# Phase A Report
 
 Lớp: SE358.Q12
 Giảng viên: Lê Văn Tuấn
