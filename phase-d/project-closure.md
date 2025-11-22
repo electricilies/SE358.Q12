@@ -71,6 +71,16 @@ Electricilies is an e-commerce platform for electronic products, developed by a 
 - Schedule lessons learned meeting for continuous improvement.
 - Plan for future enhancements (e.g., mobile app, new payment gateways).
 
+## 8. Improvement Plan
+
+- **Assign Deputy Lead:** Appoint a backup lead to ensure decisions and coordination continue smoothly during absences.
+- **Enforce Deadlines & Publication:** Require all deliverables to be uploaded to Confluence within 48 hours of completion, using standard templates.
+- **Weekly Syncs:** Hold short weekly meetings to review progress, surface blockers, and confirm upcoming deadlines.
+- **Clear Task Ownership:** Distribute tasks more evenly and record clear owners and due dates in Jira for accountability.
+- **Continuous Documentation:** Update living documents (Risk Register, Quality Plan) after each sync and link them from the project index page.
+- **Technical Upskilling:** Schedule knowledge-sharing sessions and allocate time for team training on new tools and architectures.
+- **Feedback & Retrospective:** Continue to collect feedback from all members and stakeholders, and adjust processes as needed.
+
 ---
 
 _Approved by Project Manager: Trần Nguyễn Thái Bình_  
