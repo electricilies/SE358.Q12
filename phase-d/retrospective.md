@@ -27,18 +27,18 @@
 
 ## Individual contributions and observations
 
-- Trần Nguyễn Duy Minh
+- Trần Nguyễn Duy Minh:
   - Deliverables: Gantt chart, Communication Plan, Kick-off Meeting Minutes, Agile vs Waterfall (doc + slides), SCRUM meeting, Frontend code, Final Document
   - Assessment: Excellent. Always on time, never late on tasks, very responsible.
 
-- Đào Duy Vinh
+- Đào Duy Vinh:
   - Deliverables: Work Breakdown Structure, Quality Plan, Agile vs Waterfall, SCRUM meeting, Figma design
   - Assessment: Responsible, but personal matters affected coding progress.
 
-- Nguyễn Thái Gia Nguyễn
+- Nguyễn Thái Gia Nguyễn:
   - Deliverables: Project Charter, Human Resource Management document, SCRUM meeting, Backend code
   - Assessment: Very supportive and kept the whole team connected. Helped solve common issues. Suggested using Domain Driven Design, which made the code clearer and easier to maintain.
 
-- Trần Nguyễn Thái Bình
+- Trần Nguyễn Thái Bình:
   - Deliverables: Stakeholders Register, Budget Management, Risk Register, SCRUM meeting, DevOps code
   - Assessment: Completed tasks well and helped make good technical decisions.

@@ -1,125 +1,106 @@
-# Project Closure
+# Project Closure Report
 
-# Project Closure Document
+**Project Name:** Electricilies – Website for Selling Electronic Products
 
-_Electricilies – Website for Selling Electronic Products_
+# Document Control
 
-## 1. Project Overview
+## Document Information
 
-Electricilies is an e-commerce platform for electronic products, developed by a four-member team over 12 weeks. The project aimed to deliver a user-friendly, secure, and scalable website with core modules: product listing, cart, checkout/payment, CMS, and supporting infrastructure.
+|                     |                                        |
+| :------------------ | :------------------------------------- |
+| **Document Id**     | ELEC-CLOSE-001                         |
+| **Document Owner**  | Trần Nguyễn Thái Bình                  |
+| **Issue Date**      | 2025-11-28                             |
+| **Last Saved Date** | 2025-11-28                             |
+| **File Name**       | Project Closure Report - Electricilies |
 
-## 2. Objectives & Deliverables
+## Document Approvals
 
-### Objectives
+| **Role**              | **Name**              | **Date**   |
+| :-------------------- | :-------------------- | :--------- |
+| **Lecturer**          | Lê Văn Tuấn           | 2025-11-28 |
+| **Project Manager**   | Trần Nguyễn Thái Bình | 2025-11-28 |
+| **Quality Assurance** | Trần Nguyễn Duy Minh  | 2025-11-28 |
 
-- Develop a responsive e-commerce website for electronic products.
-- Implement secure authentication and payment gateway integration.
-- Provide CMS for staff/admin management.
-- Achieve high performance, reliability, and user satisfaction.
+# 1. Project Completion
 
-### Key Deliverables
+This section identifies the criteria required to complete the project and any outstanding items which still need to be undertaken.
 
-- Fully functional website with product, cart, checkout, and CMS modules.
-- Secure authentication (Keycloak) and VNPay payment integration.
-- Deployment on self-hosted Kubernetes infrastructure.
-- Documentation, test reports, and user manuals.
-- Project artifacts: budget, risk register, quality plan, communication plan, meeting minutes.
+## 1.1. Completion Criteria
 
-## 3. Performance Summary
+| **Category**     | **Criteria**                                                                        | **Achieved** |
+| :--------------- | :---------------------------------------------------------------------------------- | :----------- |
+| **Objectives**   | Develop a user-friendly website for browsing and purchasing electronic products.    | **Yes**      |
+|                  | Implement secure authentication (Keycloak) and payment integration (VNPay).         | **Yes**      |
+|                  | Create an admin interface for product and order management.                         | **Yes**      |
+| **Benefits**     | Platform supports retail and wholesale customers with seamless shopping experience. | **Yes**      |
+|                  | System handles high concurrency via Kubernetes autoscaling.                         | **Yes**      |
+| **Deliverables** | Fully functional source code (Frontend/Backend) deployed on K8s.                    | **Yes**      |
+|                  | Comprehensive documentation (Architecture, API Swagger, User Manuals).              | **Yes**      |
+|                  | Test Reports (Unit, Integration, E2E) with >80% coverage.                           | **Yes**      |
 
-| Area              | Target/Metric                    | Actual Outcome / Status               |
-| ----------------- | -------------------------------- | ------------------------------------- |
-| Schedule          | 12 weeks                         | Completed within planned timeline     |
-| Budget            | $46,568 (bottom-up estimate)     | No overrun; contingency unused        |
-| Quality           | ≥80% test coverage, ≤2s response | Achieved; see Quality Plan            |
-| Uptime            | ≥99.8%                           | Met via Prometheus/Grafana monitoring |
-| User Satisfaction | ≥4.2/5 rating                    | Surveyed post-release, met target     |
-| Documentation     | All artifacts in Confluence/Jira | Published and versioned               |
+## 1.2. Outstanding Items
 
-## 4. Lessons Learned
+List of items that remain incomplete or require further attention after project closure.
 
-### What Went Well
+| **Item**          | **Action**                                                                    | **Owner**              |
+| :---------------- | :---------------------------------------------------------------------------- | :--------------------- |
+| **Backend API**   | Finalize advanced Search, Sort, and Filter logic for large datasets.          | Nguyễn Thái Gia Nguyễn |
+| **Image Upload**  | Fix Presigned URL generation logic for product image uploads in CMS.          | Trần Nguyễn Duy Minh   |
+| **Documentation** | Update API documentation to reflect the latest changes in the Review Module.  | Trần Nguyễn Thái Bình  |
+| **Security**      | Conduct final penetration testing on the payment gateway integration sandbox. | Trần Nguyễn Thái Bình  |
 
-- Effective collaboration and responsibility across team roles.
-- Centralized documentation improved traceability.
-- CI/CD and Kubernetes deployment streamlined releases.
+# 2. Project Closure
 
-### What Could Be Improved
+This section outlines the handover of deliverables, documentation, resources, and communication.
 
-- Early delays in task assignment and progress monitoring.
-- Need for deputy lead to cover for team lead absences.
-- Some deliverables were published late; enforce 48-hour rule.
+## 2.1. Deliverables Handover
 
-### Actions for Future Projects
+| **Deliverable**    | **Current Owner** | **Current Location**     | **New Owner**    | **Handover Activities**                                | **Date**   |
+| :----------------- | :---------------- | :----------------------- | :--------------- | :----------------------------------------------------- | :--------- |
+| **Source Code**    | Dev Team          | GitHub (Private Repo)    | Maintenance Team | Transfer repository ownership; Grant admin access.     | 2025-11-30 |
+| **Infrastructure** | DevOps (Bình)     | Self-hosted K8s Cluster  | Ops Team         | Transfer SSH keys; Hand over `kubeconfig` and secrets. | 2025-11-30 |
+| **Database**       | Backend Team      | PostgreSQL (Self-hosted) | Ops Team         | Provide connection strings; Verify backup integrity.   | 2025-11-30 |
 
-- Assign backup owners for key tasks.
-- Schedule weekly syncs for progress and blockers.
-- Standardize documentation templates and publication timelines.
+## 2.2. Documentation Handover
 
-## 5. Outstanding Issues & Deferred Work
+| **Documentation**     | **Current Owner** | **Current Location**      | **New Owner**       | **Handover Activities**                             | **Date**   |
+| :-------------------- | :---------------- | :------------------------ | :------------------ | :-------------------------------------------------- | :--------- |
+| **Project Artifacts** | PM (Bình)         | Confluence / Google Drive | Client / Lecturer   | Archive Phase A-D reports; Export to PDF.           | 2025-11-29 |
+| **Technical Docs**    | Dev Team          | GitHub Wiki / VitePress   | Maintenance Team    | Publish final API Swagger; Update deployment guide. | 2025-11-29 |
+| **Design Assets**     | Designers         | Figma                     | Marketing / UI Team | Share "View/Edit" access to final design files.     | 2025-11-29 |
 
-- Some backend APIs (search, filter, review) require further enhancement.
-- Image upload and documentation API integration to be finalized.
-- Continue updating Risk Register and Quality Plan as a living document.
+## 2.3. Suppliers
 
-## 6. Stakeholder Acceptance
+| **Supplier Name**   | **Contract Reference** | **Termination Activity**                            | **Release Date** | **Activity Owner**     |
+| :------------------ | :--------------------- | :-------------------------------------------------- | :--------------- | :--------------------- |
+| **VNPay**           | Sandbox Integration    | Switch to Production Mode or Close Sandbox Account. | 2025-12-01       | Nguyễn Thái Gia Nguyễn |
+| **Domain Provider** | .id.vn Registration    | Transfer domain management credentials to Client.   | 2025-12-01       | Trần Nguyễn Thái Bình  |
 
-- All deliverables reviewed and accepted by stakeholders.
-- Final demo and report submitted on time.
-- Stakeholder feedback incorporated into retrospective and closure.
+## 2.4. Resources
 
-## 7. Transition & Next Steps
+| **Resource Name**    | **Current Designation** | **Release Activity**                                       | **Release Date** | **Activity Owner**    |
+| :------------------- | :---------------------- | :--------------------------------------------------------- | :--------------- | :-------------------- |
+| **Dev Team Members** | Developers / QA         | Release to other academic courses; Conduct exit interview. | 2025-11-30       | Trần Nguyễn Thái Bình |
+| **Mini PC Server**   | K8s Master Node         | Wipe sensitive data; Return hardware to Lab/Owner.         | 2025-12-05       | Trần Nguyễn Thái Bình |
+| **Network Switch**   | Infrastructure          | Disconnect and return to inventory.                        | 2025-12-05       | Trần Nguyễn Thái Bình |
 
-- Handover documentation and credentials to maintenance owner.
-- Archive project artifacts in Confluence and Jira.
-- Schedule lessons learned meeting for continuous improvement.
-- Plan for future enhancements (e.g., mobile app, new payment gateways).
+## 2.5. Communication
 
-## 8. Improvement Plan
+| **Target Audience**    | **Intended Message**                                                  | **Method Used**                | **Dispatch Date** | **Dispatch Owner**    |
+| :--------------------- | :-------------------------------------------------------------------- | :----------------------------- | :---------------- | :-------------------- |
+| **Lecturer / Sponsor** | Project successfully completed; Final Report submitted.               | Email & In-person Presentation | 2025-11-28        | Trần Nguyễn Thái Bình |
+| **Development Team**   | Project closed; Thank you for contributions; Lessons learned session. | Team Meeting (Retrospective)   | 2025-11-29        | Trần Nguyễn Thái Bình |
+| **End Users**          | Website is live (Beta version); Feedback channel open.                | Website Banner / Email         | 2025-12-01        | Đào Duy Vinh          |
 
-- **Assign Deputy Lead:** Appoint a backup lead to ensure decisions and coordination continue smoothly during absences.
-- **Enforce Deadlines & Publication:** Require all deliverables to be uploaded to Confluence within 48 hours of completion, using standard templates.
-- **Weekly Syncs:** Hold short weekly meetings to review progress, surface blockers, and confirm upcoming deadlines.
-- **Clear Task Ownership:** Distribute tasks more evenly and record clear owners and due dates in Jira for accountability.
-- **Continuous Documentation:** Update living documents (Risk Register, Quality Plan) after each sync and link them from the project index page.
-- **Technical Upskilling:** Schedule knowledge-sharing sessions and allocate time for team training on new tools and architectures.
-- **Feedback & Retrospective:** Continue to collect feedback from all members and stakeholders, and adjust processes as needed.
+# 3. Approval
 
----
+**Name:** Trần Nguyễn Thái Bình
 
-_Approved by Project Manager: Trần Nguyễn Thái Bình_  
-_Date: 21/11/2025_
+**Role:** Project Manager
 
-## Prompt
+**Signature:** _[Signed]_
 
-```
-Please write a comprehensive Project Closure Report for the Electricilies – Website for Selling Electronic Products project.
-Follow these requirements:
+**Date:** 28 / 11 / 2025
 
-1. Project Overview
-   - Briefly summarize the project scope, timeline, and team composition.
-
-2. Objectives & Deliverables
-   - List the main objectives and key deliverables achieved.
-
-3. Performance Summary
-   - Present a table comparing planned targets/metrics vs. actual outcomes (e.g., schedule, budget, quality, uptime, user satisfaction, documentation).
-
-4. Lessons Learned
-   - Summarize what went well, what could be improved, and actions for future projects.
-
-5. Outstanding Issues & Deferred Work
-   - List any incomplete tasks, deferred features, or ongoing risks.
-
-6. Stakeholder Acceptance
-   - State whether deliverables were reviewed and accepted by stakeholders.
-
-7. Transition & Next Steps
-   - Describe handover plans, archiving of artifacts, and recommendations for future enhancements.
-
-8. Improvement Plan
-   - List concrete actions for process, team, and technical improvement in future projects.
-
-Write all content in English.
-Format all sections and tables in markdown.
-```
+By signing this document, I grant approval to formally close this project and complete the hand-over activities as described above.
