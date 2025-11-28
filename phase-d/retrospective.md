@@ -2,27 +2,43 @@
 
 ## What went well
 
-- Hoàn thành tốt các công việc của môn học
-- Đầy đủ các artifact cần nộp cho môn học
-- Hiểu được cách quản lý một dự án, đảm bảo các tiêu chí để một dự án có thể ổn định, thành công. Cần có sự tương tác với nhiều nhân tố, bao gồm nội bộ dự án, nguồn nhân lực, khách hàng và các bên liên quan
-- Có sự tham khảo các mẫu trên mạng cùng với công cụ AI một cách hiệu quả, không quá hoàn toàn phụ thuộc vào AI mà chỉ xem là công cụ tham khảo, hiện thực có sự kiểm soát
-- Trong quá trình code, lựa chọn kiến trúc, cách thức code dễ dàng maintain, tránh Technical Debt
-- Sử dụng AI trong quá trình kiểm duyệt Pull Request trước khi merge vào nhánh chính
-- Kết hợp các check, lint, test (unit, integration) tự động bằng CI để giảm thiểu lỗi trước khi deploy
+- Completed all course tasks successfully
+- Delivered all required artifacts for the course
+- Understood how to manage a project and keep it stable and successful, including interacting with the team, human resources, customers, and other stakeholders
+- Used online samples and AI tools effectively as references, without relying on them too much
+- Chose clean, maintainable architecture and coding approaches to avoid technical debt
+- Used AI to help review Pull Requests before merging into the main branch
+- Set up automated checks, linting, and tests (unit + integration) in CI to reduce errors before deployment
 
 ## What could have been better
 
-- Tổ chức các buổi họp chưa hợp lý, khiến việc
-- Logic nghiệp vụ của dự án tương đối phức tạp, cần phải phổ cập cho cả nhóm nhiều lần
-- UI ở phần design thay đổi, khiến code cũng cần phải cập nhật
-- Vẽ các sơ đồ UML ưu tiên sử dụng triết lý diagram as code, dễ dàng lưu trữ và sửa đổi, hạn chế tự thiết kế không cần thiết
+- Team meetings were not scheduled well, causing inconvenience
+- The business logic was quite complex, requiring multiple explanations for the whole team
+- Design updates required matching changes in the UI code
+- UML diagrams should follow the “diagram as code” approach to make editing and storing easier
 
 ## What will we do differently
 
-- Sắp xếp công việc trải đều các tuần, giúp các thành viên có thể ứng phó, sửa đổi nội dung cho phù hợp thay vì tập trung các công việc vào một giai đoạn
-- Chắc chắn design trước khi code để hạn chế việc sửa đổi trong code
-- Người đứng đầu quản lý dự án (Bình) cần phải tập trung hơn vào dự án, tránh phải làm quá nhiều việc không liên quan cùng lúc khiến hiệu quả của dự án giảm
-- Mỗi model AI có ưu điểm nhược điểm, mục đích sử dụng dựa trên tập dữ liệu được train. Nên sử dụng model dành riêng cho việc lên kế hoạch, xác định các yêu cầu trong quá trình quản lý dự án như Gemini thay vì các model chuyên cho quá trình code như Claude
-- Cân nhắc code theo mô hình SCRUM thiên hướng iterative nhiều hơn incremental
+- Spread tasks more evenly across the weeks so the team has time to adjust instead of rushing everything at once
+- Finalize design before coding to reduce changes later
+- The project lead (Bình) should focus more on the project instead of handling too many unrelated tasks
+- Different AI models have different strengths, so choose the right one for the right job (e.g., Gemini for planning and requirement analysis, Claude for coding tasks)
+- Consider using a SCRUM style that leans more toward iterative development instead of incremental
 
 ## Individual contributions and observations
+
+- Trần Nguyễn Duy Minh
+  - Deliverables: Gantt chart, Communication Plan, Kick-off Meeting Minutes, Agile vs Waterfall (doc + slides), SCRUM meeting, Frontend code, Final Document
+  - Assessment: Excellent. Always on time, never late on tasks, very responsible.
+
+- Đào Duy Vinh
+  - Deliverables: Work Breakdown Structure, Quality Plan, Agile vs Waterfall, SCRUM meeting, Figma design
+  - Assessment: Responsible, but personal matters affected coding progress.
+
+- Nguyễn Thái Gia Nguyễn
+  - Deliverables: Project Charter, Human Resource Management document, SCRUM meeting, Backend code
+  - Assessment: Very supportive and kept the whole team connected. Helped solve common issues. Suggested using Domain Driven Design, which made the code clearer and easier to maintain.
+
+- Trần Nguyễn Thái Bình
+  - Deliverables: Stakeholders Register, Budget Management, Risk Register, SCRUM meeting, DevOps code
+  - Assessment: Completed tasks well and helped make good technical decisions.
