@@ -1,3 +1,7 @@
+# Project Closure
+
+# Project Closure Document
+
 _Electricilies – Website for Selling Electronic Products_
 
 ## 1. Project Overview
@@ -85,3 +89,37 @@ Electricilies is an e-commerce platform for electronic products, developed by a 
 
 _Approved by Project Manager: Trần Nguyễn Thái Bình_  
 _Date: 21/11/2025_
+
+## Prompt
+
+```
+Please write a comprehensive Project Closure Report for the Electricilies – Website for Selling Electronic Products project.
+Follow these requirements:
+
+1. Project Overview
+   - Briefly summarize the project scope, timeline, and team composition.
+
+2. Objectives & Deliverables
+   - List the main objectives and key deliverables achieved.
+
+3. Performance Summary
+   - Present a table comparing planned targets/metrics vs. actual outcomes (e.g., schedule, budget, quality, uptime, user satisfaction, documentation).
+
+4. Lessons Learned
+   - Summarize what went well, what could be improved, and actions for future projects.
+
+5. Outstanding Issues & Deferred Work
+   - List any incomplete tasks, deferred features, or ongoing risks.
+
+6. Stakeholder Acceptance
+   - State whether deliverables were reviewed and accepted by stakeholders.
+
+7. Transition & Next Steps
+   - Describe handover plans, archiving of artifacts, and recommendations for future enhancements.
+
+8. Improvement Plan
+   - List concrete actions for process, team, and technical improvement in future projects.
+
+Write all content in English.
+Format all sections and tables in markdown.
+```
