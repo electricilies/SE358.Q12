@@ -129,45 +129,90 @@ By signing this document, I grant approval to formally close this project and co
 
 We commit to applying these lessons and improvement actions in future projects to deliver higher quality, maintain better traceability, and foster a more resilient, collaborative team.
 
-# 3. Personal Feedback
+# 3. Retrospective
 
-## 3.1. Trần Nguyễn Thái Bình
+## 3.1. What went well
 
-### 3.1.1. Knowledge
+- Completed all course tasks successfully
+- Delivered all required artifacts for the course
+- Understood how to manage a project and keep it stable and successful, including interacting with the team, human resources, customers, and other stakeholders
+- Used online samples and AI tools effectively as references, without relying on them too much
+- Chose clean, maintainable architecture and coding approaches to avoid technical debt
+- Used AI to help review Pull Requests before merging into the main branch
+- Set up automated checks, linting, and tests (unit + integration) in CI to reduce errors before deployment
+
+## 3.2. What could have been better
+
+- Team meetings were not scheduled well, causing inconvenience
+- The business logic was quite complex, requiring multiple explanations for the whole team
+- Design updates required matching changes in the UI code
+- UML diagrams should follow the “diagram as code” approach to make editing and storing easier
+
+## 3.3. What will we do differently
+
+- Spread tasks more evenly across the weeks so the team has time to adjust instead of rushing everything at once
+- Finalize design before coding to reduce changes later
+- The project lead (Bình) should focus more on the project instead of handling too many unrelated tasks
+- Different AI models have different strengths, so choose the right one for the right job (e.g., Gemini for planning and requirement analysis, Claude for coding tasks)
+- Consider using a SCRUM style that leans more toward iterative development instead of incremental
+
+## 3.4. Individual contributions and observations
+
+- Trần Nguyễn Duy Minh:
+  - Deliverables: Gantt chart, Communication Plan, Kick-off Meeting Minutes, Agile vs Waterfall (doc + slides), SCRUM meeting, Frontend code, Final Document
+  - Assessment: Excellent. Always on time, never late on tasks, very responsible.
+
+- Đào Duy Vinh:
+  - Deliverables: Work Breakdown Structure, Quality Plan, Agile vs Waterfall, SCRUM meeting, Figma design
+  - Assessment: Responsible, but personal matters affected coding progress.
+
+- Nguyễn Thái Gia Nguyễn:
+  - Deliverables: Project Charter, Human Resource Management document, SCRUM meeting, Backend code
+  - Assessment: Very supportive and kept the whole team connected. Helped solve common issues. Suggested using Domain Driven Design, which made the code clearer and easier to maintain.
+
+- Trần Nguyễn Thái Bình:
+  - Deliverables: Stakeholders Register, Budget Management, Risk Register, SCRUM meeting, DevOps code
+  - Assessment: Completed tasks well and helped make good technical decisions.
+
+# 4. Personal Feedback
+
+## 4.1. Trần Nguyễn Thái Bình
+
+### 4.1.1. Knowledge
 
 Em tham gia dự án lần này với vai trò là một Product Owner, Scrum Master, DevOps Engineer và Backend Developer, em đã có cơ hội mở rộng vốn hiểu biết cũng như kiến thức của bản thân mình không chỉ về mặt chuyên môn mà còn là về các kỹ năng mềm trong suốt dự án Electricilies. Em đã dành thời gian tìm hiểu về các khái niệm, các cộng nghệ về DevOps, như là cách xây dựng pipeline CI/CD, deploy ứng dụng trên Kubernetes,... . Em đã có được những kỹ năng cần thiết về monitoring và autoscaling. Em cũng nghiên cứu về các kiến trúc phần mềm trong việc thiết kế backend server, bên cạnh đó, em còn hiểu được cách làm sao đem lại những yếu tố thiết yếu để hỗ trợ nhóm và đảm bảo tính ổn định của hệ thống.
 
-### 3.1.2. Skills
+### 4.1.2. Skills
 
 Kỹ năng về DevOps và backend của em đã được cải thiện một cách đáng kể. Em trở nên thành thạo trong việc cấu hình quy trình làm việc CI/CD, xử lý sự cố khi deploy và hỗ trợ các team khác release container. Em đã phát triển kỹ năng của một leader thực thụ và kỹ năng về tổ chức trong một team bằng cách quản lý các buổi họp Scrum hàng ngày, theo dõi tiến độ và điều phối công việc giữa các thành viên trong nhóm. Giải quyết vấn đề là một kỹ năng tối quan trọng và cần thiết, vì vậy em thường phải giải quyết các vấn đề cản trở và hỗ trợ người khác giải quyết các thách thức kỹ thuật cũng như về giao tiếp giữa các thành viên trong team.Qua đó, em cũng học được cách giao tiếp hiệu quả và triển khai tài liệu rõ ràng và mạch lạc.
 
-### 3.1.3. Experience
+### 4.1.3. Experience
 
 Dự án Electricilies là một cơ hội giúp em tiếp cận gần hơnn những thách thức thực tế trong việc deploy phần mềm và phối hợp với các thành viên trong nhóm của mình. Em đã gặp phải những vấn đề như lỗi khi chạy CI/CD, trì hoãn trong việc release, deploy,... . Việc đảm nhận nhiều vai trò khác nhau đã giúp em học được cách cân bằng trách nhiệm và thời gian để đạt được hiệu quả tốt hơn. Em đã học được tầm quan trọng của hoàn thành các tài liệu liên quan đến dự án sớm để tiến đến triển khai cũng như code, theo dõi tiến độ làm việc của các thành viên trong nhóm. Những trải nghiệm này đã giúp em có thêm kinh nghiệm về quản lý cũng như.
 
-### 3.1.4. Use of AI
+### 4.1.4. Use of AI
 
 Em đã sử dụng các công cụ AI để viết prompt và hoàn thành các tài liệu, tìm hiểu các kiến thức về mặt chuyên môn. AI giúp em làm việc hiệu quả hơn bằng cách cung cấp các mẫu, truy cập thông tin nhanh chóng hơn cũng như có thể gợi ý các giải pháp tối hơn cho dự án.Em đảm bảo đã xác thực và điều chỉnh các kết quả do AI tạo ra cho phù hợp với yêu cầu của dự án. Thông qua quá trình này, em đã học được cách tích hợp AI vào quy trình làm việc của mình như một công cụ hỗ trợ, nâng cao năng suất mà vẫn đảm bảo chất lượng và độ chính xác.
 
-## 3.2. Nguyễn Thái Gia Nguyễn
+## 4.2. Nguyễn Thái Gia Nguyễn
 
-### 3.2.1. Knowledge
+### 4.2.1. Knowledge
 
 Trong suốt dự án Electricilies, em đã tích lũy được kiến thức sâu sắc hơn về backend, đặc biệt là trong việc thiết kế và triển khai các RESTful API cho các module như sản phẩm, giỏ hàng và thanh toán. Em đã tìm hiểu về cơ chế xác thực và phân quyền thông qua Keycloak, đồng thời nghiên cứu các mô hình kiến trúc nâng cao như Domain Driven Design và Clean Architecture. Đây đều là những khái niệm mới đối với em, vì vậy em đã dành thêm nhiều thời gian để nghiên cứu bản chất, nguyên lý cũng như cách áp dụng chúng một cách hiệu quả vào hệ thống. Bên cạnh đó, em cũng mở rộng hiểu biết của mình về quản lý cơ sở dữ liệu, chiến lược caching và tích hợp các cổng thanh toán bên thứ ba như VNPay.
 
-### 3.2.2. Skills
+### 4.2.2. Skills
 
 Kỹ năng của em đã cải thiện đáng kể trong quá trình tham gia dự án. Em đã trở nên thành thạo hơn trong việc tích hợp các thư viện bên ngoài, xử lý các giao dịch cơ sở dữ liệu phức tạp và tối ưu hiệu suất backend thông qua caching. Em cũng học được cách viết tài liệu API bằng Swagger, giúp việc phối hợp với nhóm frontend trở nên trơn tru hơn. Kỹ năng giao tiếp của em được cải thiện khi em thường xuyên cập nhật tiến độ và trao đổi về các vấn đề gặp phải với cả nhóm. Bên cạnh đó, kỹ năng quản lý thời gian và giải quyết vấn đề trở nên quan trọng khi em đảm nhận các nhiệm vụ khó và thích ứng với những thay đổi yêu cầu từ dự án.
 
-### 3.2.3. Experience
+### 4.2.3. Experience
 
 Dự án mang đến rất nhiều thách thức đối với em, như làm việc với các thư viện có tài liệu hạn chế, tìm hiểu những mô hình kiến trúc phức tạp và chạy đua với tiến độ gấp rút. Em đã chịu áp lực trong việc đảm bảo hoàn thành tính năng đúng hạn và đôi khi phải refactor lại code để nâng cao chất lượng. Quá trình phối hợp với các thành viên trong nhóm giúp em nhận ra tầm quan trọng của giao tiếp rõ ràng và tinh thần làm việc nhóm. Em học được cách chủ động nhờ sự hỗ trợ khi cần thiết và hỗ trợ các bạn bằng cách chia sẻ tài liệu cũng như những hiểu biết kỹ thuật của mình. Những trải nghiệm này giúp em trưởng thành hơn cả về mặt chuyên môn lẫn khả năng làm việc nhóm.
 
-### 3.2.4. Use of AI
+### 4.2.4. Use of AI
 
 Em đã sử dụng các công cụ AI chủ yếu cho việc tra cứu tài liệu kỹ thuật, tạo prompt cho các báo cáo và hỗ trợ kiểm thử API. AI giúp em tiết kiệm thời gian bằng cách cung cấp thông tin nhanh chóng và đưa ra các gợi ý hữu ích, đặc biệt khi em gặp khó khăn về kỹ thuật hoặc cần soạn thảo tài liệu. Tuy nhiên, em luôn xem xét và điều chỉnh lại nội dung do AI tạo ra để đảm bảo độ chính xác và phù hợp với yêu cầu của dự án. Thông qua quá trình làm việc, em nhận thấy AI là một công cụ hỗ trợ đắc lực, nhưng sự đánh giá và tinh chỉnh của con người vẫn là điều cần thiết để đảm bảo chất lượng cao nhất.
 
-## 3.3. Trần Nguyễn Duy Minh
+## 4.3. Trần Nguyễn Duy Minh
 
 Trước đây, với việc chỉ được tiếp xúc với các dự án có quy mô nhỏ và phạm vi chỉ vỏn vẹn trong môn học, ngành học, em chưa có cơ hội trải nghiệm, làm quen với quy trình quản lý dự án trong thực tế. Trong quá trình tham gia học tập và hoạt động trong lớp SE358, em đã được mở rộng kiến thức, có một cái nhìn tổng quát hơn về cách một dự án được quản lý chặt chẽ, chỉnh chu.
 
